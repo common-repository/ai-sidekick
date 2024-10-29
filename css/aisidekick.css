@@ -1,0 +1,107 @@
+#aisidekick iframe {
+    width: 100%;
+    height: calc(100% - 40px);
+    min-height: calc(100% - 40px);
+}
+
+#aisidekick {
+    position: fixed;
+    z-index: 100000;
+    background-color: #ffffff;
+    border: 1px solid #d3d3d3;
+    text-align: left;
+    right: 20px;
+    bottom: 30px;
+}
+
+#aisidekick.portrait {
+    height: 70vh;
+    width: 340px;
+}
+
+#aisidekick.landscape {
+    height: 400px;
+    min-height: 30vh;
+    width: 80vw;
+}
+
+#aisidekick.full {
+    width: 70vw;
+    min-width: 340px;
+    height: 90vh;
+    min-height: 400px;
+}
+
+#aisidekick.disabled {
+    width: 340px;
+    min-width: 340px;
+    height: 40px;
+    min-height: 40px;
+}
+
+#aisidekick svg path {
+    fill: grey;
+}
+
+#aisidekickheader svg {
+    height: 30px;
+}
+
+#aisidekick.full #aiSidekickFull svg path {
+    fill: rgb(22 163 74);
+}
+
+#aisidekick.portrait #aiSidekickPortrait svg path {
+    fill: rgb(22 163 74);
+}
+
+#aisidekick.landscape #aiSidekickLandscape svg path {
+    fill: rgb(22 163 74);
+}
+
+#aisidekick.disable #aiSidekickDisable svg path {
+    fill: rgb(22 163 74);
+}
+
+#aisidekick #aisidekickheader {
+    padding: 5px 0.75rem;
+    cursor: move;
+    z-index: 10;
+    color: #fff;
+    height: 30px;
+}
+
+#aisidekick.portrait #aisidekickheader,
+#aisidekick.disabled #aisidekickheader {
+    width: 240px;
+}
+
+#aisidekick.landscape #aisidekickheader {
+    width: calc(80vw - 100px);
+}
+
+#aisidekick.full #aisidekickheader {
+    width: calc(70vw - 100px);
+}
+
+#aisidekickmenu {
+    padding: 10px 5px;
+    width: 80px;
+    height: 20px;
+}
+
+#aisidekick #aisidekickmenu button {
+    background: none;
+    color: inherit;
+    border: none;
+    padding: 0;
+    font: inherit;
+    cursor: pointer;
+    outline: inherit;
+    width: 16px;
+}
+#aisidekick #aisidekickmenu button:before {
+    font-size: 20px;
+    font-family: dashicons;
+    vertical-align: middle;
+}

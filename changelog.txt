@@ -1,0 +1,30 @@
+# Changelog
+
+## [0.9.7]
+- Small design fix.
+
+## [0.9.6]
+- Changes based on the feedback of the WordPress Plugin Review Team
+
+## [0.9.5]
+- Added versioning to js-files
+
+## [0.9.4]
+- Changed to using Wordpress-provided jQuery UI Dialog for scrollable
+- Changed overlay to position:fixed so it stays at the same position if scrolling
+
+## [0.9.3]
+- Changed navigation to three sizes: landscape, portrait and full
+- userId parameter is now being used
+- changed icons to FontAwesome icons
+
+## [0.9.2]
+- Adaptions for classic editor
+
+## [0.9.1]
+- Rewriting integration of AI Sidekick due to reloading problem of sidebar
+
+## [0.9.0]
+- AI Sidekick integration in sidebar through iframe
+- Settings page to add the AI Sidekick licence key
+- First version to be released
